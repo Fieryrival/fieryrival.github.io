@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Fieryrival&#39;s Blog</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Fieryrival&#39;s Blog</description>
+    <image>
+      <title>Fieryrival&#39;s Blog</title>
+      <url>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Pilgrim&#39;s Progress: Exploiting ImageMagick and Binwalk on Pilgrimage</title>
+      <link>//localhost:1313/posts/pilgrimage/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/pilgrimage/</guid>
+      <description>Easy rated linux box from hackthebox comprising of .git directory, magick binary for file read and binwalk for privilege escalation.</description>
+    </item>
+    <item>
+      <title>Abusing Cacti: From SQLi to Root on MonitorsTwo</title>
+      <link>//localhost:1313/posts/monitorstwo/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/monitorstwo/</guid>
+      <description>Easy rated linux box from hackthebox comprising of cacti, rce, and docker cve.</description>
+    </item>
+    <item>
+      <title>Beyond the Blog: Exploiting WordPress CVEs on HTB &#39;MetaTwo&#39;</title>
+      <link>//localhost:1313/posts/metatwo/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/metatwo/</guid>
+      <description>Write-up for &amp;lsquo;MetaTwo&amp;rsquo;, a box that involves exploiting WordPress CVEs with multiple vectors (SQLi, XXE, LFI) for foothold, and then leveraging passpie for root privilege escalation.</description>
+    </item>
+    <item>
+      <title>Building a Shell: From Malicious .NET Project to &#39;FullPowers&#39;</title>
+      <link>//localhost:1313/posts/visual/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/visual/</guid>
+      <description>Medium rated Windows box from hackthebox that involves building a malicious .NET solution project for foothold, and exploiting &amp;lsquo;FullPowers&amp;rsquo; via SeImpersonate for privilege escalation.</description>
+    </item>
+    <item>
+      <title>Forging the One Shell: A PDFKit RCE on HTB &#39;Precious&#39;</title>
+      <link>//localhost:1313/posts/precious/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/precious/</guid>
+      <description>Easy rated box from hackthebox comprising of a Ruby pdfkit RCE for foothold and a sudo misconfiguration for privilege escalation.</description>
+    </item>
+    <item>
+      <title>From Forged Requests to Pager Escapes on HTB &#39;Sau&#39;</title>
+      <link>//localhost:1313/posts/sau/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/sau/</guid>
+      <description>Easy rated linux box from hackthebox comprising of an SSRF leading to RCE for foothold, and a systemctl less pager escape for privilege escalation.</description>
+    </item>
+    <item>
+      <title>Scoring with WebSockets: A Winning Goal on HTB &#39;Soccer&#39;</title>
+      <link>//localhost:1313/posts/soccer/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/soccer/</guid>
+      <description>Easy rated linux box from hackthebox comprising sqli, tiny file manager rce and doas for privilege escalation.</description>
+    </item>
+    <item>
+      <title>The Path to Root: Hijacking the Search on HTB &#39;Busqueda&#39;</title>
+      <link>//localhost:1313/posts/busqueda/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/busqueda/</guid>
+      <description>Easy rated linux box &amp;lsquo;Busqueda&amp;rsquo; from hackthebox comprising of command injection for foothold, credentials reuse for internal subdomain and insecure code executing a relative path script as root leading to privilege escalation.</description>
+    </item>
+    <item>
+      <title>Becoming the Authority: An AD CS Exploit on HTB &#39;Authority&#39;</title>
+      <link>//localhost:1313/posts/authority/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/authority/</guid>
+      <description>Walkthrough of a medium-rated Windows AD box involving LDAP manipulation, cracking an Ansible vault, and escalating to Domain Admin via the AD CS ESC1 exploit.</description>
+    </item>
+    <item>
+      <title>Beyond the Interface: Escalating with a Bash Operator Flaw</title>
+      <link>//localhost:1313/posts/interface/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/interface/</guid>
+      <description>Easy rated linux box from hackthebox with hidden directories leading to RCE for foothold, and bash operator evaluation for privilege escalation.</description>
+    </item>
+    <item>
+      <title>From GPP to Domain Admin: Cracking HTB &#39;Active&#39;</title>
+      <link>//localhost:1313/posts/active/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/active/</guid>
+      <description>Easy rated windows AD box from hackthebox comprising GPP and kerberoasting.</description>
+    </item>
+    <item>
+      <title>From gRPC SQLi to Pyload Root: A Guide to HTB &#39;PC&#39;</title>
+      <link>//localhost:1313/posts/pc/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/pc/</guid>
+      <description>Easy rated linux box from hackthebox comprising of gRPC and SQLi for foothold, and a misconfigured Pyload for privilege escalation.</description>
+    </item>
+    <item>
+      <title>From Spring Boot LFI to Ansible Root: A Guide to HTB &#39;Inject&#39;</title>
+      <link>//localhost:1313/posts/inject/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/inject/</guid>
+      <description>Easy rated linux box from hackthebox with Springboot application for foothold and ansible for privilege escalation.</description>
+    </item>
+  </channel>
+</rss>

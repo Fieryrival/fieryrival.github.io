@@ -1,0 +1,151 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = "Fieryrival's Blog"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "ExampleSite"
+description = "ExampleSite description"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+favicon = "favicon.ico"
+
+  [params.assets]
+  
+  favicon16x16 = "favicon-16x16.png"
+  favicon32x32 = "favicon-32x32.png"
+  apple_touch_icon = "apple-touch-icon.png"
+  
+
+  [params.label]
+  text = "Home"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = false
+  title = "ExampleSite"
+  subtitle = "This is subtitle"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Welcome to my /root/ 📂"
+  Content = "You've found my stash of write-ups. Some are brilliant, some are messy, but all of them eventually lead to a flag. Wipe your feet on the way in."
+
+  [[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/fieryrival"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/fieryrival"
+
+  [[params.socialIcons]]
+  name = "discord"
+  url = "https://discord.com/sz9q2d2u"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = false
+  hiddenInSingle = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  limit = 5
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 30
+
+
+[markup.highlight]
+noClasses = false
+
+
+
+[caches]
+  [caches.assets]
+    dir = ':resourceDir/_gen'
+    maxAge = -1
+  [caches.getcsv]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.getjson]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.images]
+    dir = ':resourceDir/_gen'
+    maxAge = -1
+  [caches.misc]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.modules]
+    dir = ':cacheDir/modules'
+    maxAge = -1
